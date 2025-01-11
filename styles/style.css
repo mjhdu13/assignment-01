@@ -254,3 +254,8 @@ background-color:rgba(255, 194, 57, 1) ;
   color: white;
   border: none; 
 }
+
+/* hover effect */
+.all-button:hover{
+  background-color: red;
+}
