@@ -189,8 +189,68 @@ background-color:rgba(255, 194, 57, 1) ;
 }
 
 /* donate style */
+
 .amount-box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 24px; 
+}
+
+.one-hun{
+  border-radius: 16px;
   background-color: white;
+  width: 252px;
+  height: 128px;
+  font-size: 40;
+  font-weight: bold;
+  text-align: center;
+}
+
+.two-hun{
+  
+  border-radius: 16px;
+  background-color: rgba(198, 228, 214, 1);
+  width: 252px;
+  height: 128px;
+  font-size: 40;
+  font-weight: bold;
+  text-align: center;
+}
+.five-hun{
+  border-radius: 16px;
+  background-color: white;
+  width: 252px;
+  height: 128px;
+  font-size: 40;
+  font-weight: bold;
+  text-align: center;
+}
+.ten-hun{
+  border-radius: 16px;
+  background-color: white;
+  width: 252px;
+  height: 128px;
+  font-size: 40;
+  font-weight: bold;
+  text-align: center;
+}
+.donate-heading, .donate-div p, .donate-last-div{
+  text-align: center;
+}
+.donate-heading{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+}
+.donate-div p{
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.donate-btn{
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  border: none; 
 }
